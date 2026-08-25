@@ -1,0 +1,23 @@
+candidato: Ana Carolina Martins Souza
+modelo_usado: gemini-3.6-flash
+provedor: google-ai-studio
+horas_dedicadas: 8
+
+nivel_1:
+  limpeza_dados:      {status: completo, onde: "nivel_1/nivel_1.ipynb"}
+  regras_pandas:      {status: completo, onde: "nivel_1/nivel_1.ipynb"}
+  validacao_regras:   {status: completo, onde: "nivel_1/nivel_1.ipynb"}
+  saida_estruturada:  {status: completo, onde: "nivel_1/nivel_1.ipynb"}
+  comparacao_prompts: {status: completo, onde: "docs/DECISOES.md#prompts"}
+
+nivel_2:
+  regras_em_escala: {status: completo, onde: "nivel_2/agente.py"}
+  ferramentas:      {status: completo, onde: "nivel_2/tools.py"}
+  agente:           {status: completo, onde: "nivel_2/agente.py"}
+  lote:             {status: completo, onde: "outputs/metricas_execucao.csv"}
+  confronto:        {status: parcial, onde: "nivel_2/confronto.py"}
+
+nivel_3:
+  trilha_escolhida: A
+  status: nao_feito
+  plano: "docs/DECISOES.md"
